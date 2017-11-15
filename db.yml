@@ -1,0 +1,30 @@
+articles:
+  '1':
+    commentIds:
+      - 1
+    comments: []
+    downvotedBy: []
+    id: 1
+    title: test
+    upvotedBy:
+      - ryan
+    url: tes.com
+    username: ryan
+comments:
+  '1':
+    articleId: 1
+    body: yoooo
+    downvotedBy: []
+    id: 1
+    upvotedBy:
+      - ryan
+    username: ryan
+nextArticleId: 2
+nextCommentId: 2
+users:
+  ryan:
+    articleIds:
+      - 1
+    commentIds:
+      - 1
+    username: ryan
